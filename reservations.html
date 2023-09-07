@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niner Coffee House</title>
+    <meta name= "author" content= "Sofia Mata">
+    <link rel= "icon" type= "image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!--Header Area-->
+    <header>
+        <h1>Niner Coffee House</h1>
+        <!--Navigation-->
+        <nav>
+            <ul>
+                <li><a href= "index.html"> Home</a></li>
+                <li><a href= "menu.html"> Menu</a></li>
+                <li><a href= "reservations.html"> Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Main Content-->
+    <img src="images/shop.jpg" alt="Reservation Desk" width="400" height="533">
+    <h2>Make a Reservation</h2>
+    
+    <form action="#">
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <br>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+        <br>
+        <input type="number" id="number" name="number" placeholder="Number of guests in your party" min="1" max="20" required>
+        <br>
+        <input type="date" id="date" name="date" required>
+        <input type="time" id="time" name="time" required>
+        <br>
+        <textarea name="request" id="request" placeholder="Special requests"></textarea>
+        <br>
+        <input type="submit" value="Reserve">
+    </form>
+ 
+    <!--Footer Area-->
+    <footer>
+       <p><small>©2022 Niner Coffee House. All rights reserved</small></p>
+    </footer>
+
+</body>
+</html>
